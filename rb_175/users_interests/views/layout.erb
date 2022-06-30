@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title><%= @title%></title>
+  </head>
+
+  <body>
+    <div id='layout'>
+      <div id='main'>
+        <div class="header"
+        </div>
+
+        <div class="content">
+          <%= yield %>
+        </div>
+
+        <div id="footer-message">
+          <p><%= count_interests %></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<h1>Users</h1>
+<div id="content">
+  <ul>
+    <% @userdata.each do |user, info| %>
+      <li><a href="/users/<%= user %>"><%= user.to_s %></a></li>
+
+    <% end %>
+  </ul>
+</div>
